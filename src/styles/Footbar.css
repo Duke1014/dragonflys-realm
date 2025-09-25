@@ -1,0 +1,8 @@
+footer {
+    background-color: #e397f2;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    z-index: 1000;
+}

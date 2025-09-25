@@ -1,0 +1,8 @@
+nav {
+    background-color: #e397f2;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+}
