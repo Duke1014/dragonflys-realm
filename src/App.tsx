@@ -8,16 +8,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
 
   return (
-    <>
+    <Router>
       <Navbar />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-        </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+      </Routes>
       <Footbar />
-    </>
+    </Router>
   )
 }
 
