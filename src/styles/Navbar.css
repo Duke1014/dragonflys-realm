@@ -1,5 +1,5 @@
 nav {
-    background-color: #e397f2;
+    background-color: #3f064b;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -17,7 +17,7 @@ nav {
             display: inline;
             height: 8vh;
             &:hover {
-                background-color: #d176e1;
+                background-color: #9116a7;
                 transition: 0.3s;
                 cursor: pointer;
             }

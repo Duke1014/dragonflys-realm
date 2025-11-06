@@ -21,7 +21,7 @@ export default function Navbar() {
                     onMouseEnter={() => setHover("Shop")}
                     onMouseLeave={() => setHover("")}
                 >
-                    Shop
+                    <Link to="/shop">Shop</Link>
                     <ul>
                         {hover === "Shop" && shopItems.map((item: any) => {
                             return (
@@ -34,7 +34,7 @@ export default function Navbar() {
                 </li>
                 <li>More</li>
                 <li>Contact Us</li>
-                <li>Shopping Cart</li>
+                <li>🛒</li>
             </ul>
         </nav>
     )
